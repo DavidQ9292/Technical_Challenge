@@ -1,4 +1,5 @@
 import utils from "../../support/utils";
+
 describe('HomePage tests', () => {
   it('test 1 - No console errors are displayed in the HomePage', () => {
     // Get the console traces
@@ -8,15 +9,15 @@ describe('HomePage tests', () => {
     });
 
     // Visit the baseUrl
-    cy.visit('/');
+    utils.goToPage('/')
 
     //Assert
     cy.get('@consoleError').should('not.be.called');
   });
 
-  it.only('test 2 - Check all the href of the HomePage', () => {
+  it('test 2 - Check all the href of the HomePage', () => {
     //visit the baseUrl
-    cy.visit('/');
+    utils.goToPage('/')
 
     //dinamic function to check all the href of a page
     utils.verifyHrefViaClick('/');

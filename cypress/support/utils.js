@@ -1,4 +1,8 @@
 class Utils {
+    goToPage(page) {
+        cy.visit(page);
+    }
+
     //created to avoid code duplicity
     verifyCorrectResponseCode(statusCode, url) {
         expect(statusCode).to.satisfy((code) => {
