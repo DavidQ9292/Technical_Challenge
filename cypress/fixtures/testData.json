@@ -1,0 +1,8 @@
+{
+  "environments":{
+    "production":"https://pocketaces2.github.io/fashionhub",
+    "local":"http://localhost:4000/fashionhub",
+    "staging":"https://staging-env/fashionhub"
+  },
+  "pullRequestPage": "https://github.com/appwrite/appwrite/pulls"
+}

@@ -1,0 +1,5 @@
+services:
+  web:
+    image: pocketaces2/fashionhub-demo-app
+    ports:
+      - "4000:4000"

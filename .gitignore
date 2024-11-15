@@ -1,0 +1,25 @@
+# Node artifact files
+node_modules/
+dist/
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# env files
+*.env
+
+#attachments
+**/screenshots/*
+**/videos/*
+**/downloads/*
+**/reports/*
